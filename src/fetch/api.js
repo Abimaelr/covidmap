@@ -6,4 +6,9 @@ const covidCountry = async() => {
     return countryData;
 }
 
-export {covidCountry};
+const countries = async () => {
+    const endPoint = "https://restcountries.eu/rest/v2/all";
+    const countryInfo = fetch(endPoint).then(data => data.json() );
+    return countryInfo;
+}
+export {covidCountry, countries};
