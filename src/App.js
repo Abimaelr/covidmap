@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+//api1 https://restcountries.eu/rest/v2/all -> Todos os países
+//api2 https://disease.sh/docs/#/COVID-19%3A%20Apple/get_v3_covid_19_apple_countries__country_ -> covid Data
+
 function App() {
   return (
     <div className="App">
